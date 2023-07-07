@@ -13,6 +13,7 @@ my_var = "hello stupid guy"
 def index(request):
     return HttpResponse(df)
 
+
 def show_test(request):
     # df_html = df.to_html()
 
