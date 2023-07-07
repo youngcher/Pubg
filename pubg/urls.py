@@ -3,7 +3,7 @@ from pubg import views
 
 urlpatterns = [
     path('', views.index),
-    path('create/', views.show_test, name='show_test'),
+    path('show_test/', views.show_test, name='show_test'),
     path('read/<id>/', views.read),
     path('search/', views.search)
 ]
